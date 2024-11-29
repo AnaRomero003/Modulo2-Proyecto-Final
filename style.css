@@ -22,9 +22,29 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 
 .nav-links li{
     margin-left: 20px;
+}
+
+/*Estilos de la seccion hero*/
+.hero{
+    background-image: url(https://cdn-3.expansion.mx/dims4/default/00ace59/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fc6%2Fe3%2F4919f24f48c69ce3a9dbf211937f%2Fdia-internacional-cafe-2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 100px 0;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
