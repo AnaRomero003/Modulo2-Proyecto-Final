@@ -8,6 +8,10 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -71,4 +75,250 @@ body{
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+/*Estilos de pie de pagina*/
+footer{
+    background-color: rgb(126, 65, 22);
+    text-align: center;
+    padding: 10px 0;
+}
+
+#menu{
+    width: 20%;
+    height: 40px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu:hover{
+    /*Boton de menu transicion*/
+    transform: scale(1.2);
+    background-color: rgb(56, 166, 166);
+}
+
+.bebidas-calientes{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(221, 180, 180);
+    width: 100%;
+    height: fit-content;
+}
+
+.bebidas{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.bebidas img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.bebidas-frias{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(59, 197, 103);
+    width: 100%;
+    height: fit-content;
+}
+
+.postres{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(225, 128, 90);
+    width: 100%;
+    height: fit-content;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nosotros {
+    padding: 50px 20px;
+    background-color: #f9f5f1;
+    color: #4a4a4a;
+}
+
+.nosotros .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nosotros h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8b4513;
+}
+
+.nosotros .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.nosotros .texto {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.nosotros .imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.nosotros .imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.valores {
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.valores .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.valores h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #8b4513;
+}
+
+.valores-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.valor {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.valor h3 {
+    font-size: 1.5em;
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+.valor p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .nosotros .content {
+        flex-direction: column;
+    }
+
+    .nosotros h2 {
+        font-size: 2em;
+    }
+}
+
+/* Sección Contáctanos */
+.contactanos {
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.contactanos .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contactanos h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8b4513;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #8b4513;
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.3);
+}
+
+.boton {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #5e3221;
+}
+
+.informacion-contacto {
+    margin-bottom: 30px;
+    background-color: #f9f5f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-contacto p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #4a4a4a;
+}
+
+.informacion-contacto strong {
+    color: #8b4513;
 }
