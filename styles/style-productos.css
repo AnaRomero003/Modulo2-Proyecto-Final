@@ -1,0 +1,96 @@
+/*Estilos de los productos*/
+.product-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+
+.bebidas-calientes{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(221, 180, 180);
+    width: 100%;
+    height: fit-content;
+}
+
+.bebidas{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.bebidas img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.bebidas-frias{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(59, 197, 103);
+    width: 100%;
+    height: fit-content;
+}
+
+.postres{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(225, 128, 90);
+    width: 100%;
+    height: fit-content;
+}
+
+.postres-seccion, .equipo{
+    padding: 50px;
+    text-align: center;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;/*Espaciado entre objetos*/
+}
+
+.postres-seccion img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.equipo{
+    background-color: antiquewhite;
+}
+
+.equipo-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.miembro{
+    width: 200px;
+    margin-bottom: 35px;
+}
+
+.miembro img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}

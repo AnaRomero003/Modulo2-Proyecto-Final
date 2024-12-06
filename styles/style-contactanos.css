@@ -1,0 +1,82 @@
+/* Sección Contáctanos */
+.contactanos {
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.contactanos .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contactanos h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8b4513;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #8b4513;
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.3);
+}
+
+.boton {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #5e3221;
+}
+
+.informacion-contacto {
+    margin-bottom: 30px;
+    background-color: #f9f5f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-contacto p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #4a4a4a;
+}
+
+.informacion-contacto strong {
+    color: #8b4513;
+}

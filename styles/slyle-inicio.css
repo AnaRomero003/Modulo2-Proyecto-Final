@@ -1,0 +1,51 @@
+/*Estilos de la seccion hero*/
+.hero{
+    background-image: url(https://storage.lacapitalmdp.com/2022/06/cafe-libro.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #dbebf3;
+    padding: 100px 0;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 10px #08415C;
+    padding-left: 1em;
+    padding-right: 1em;;
+}
+
+.hero p{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.978);
+    font-size: large;
+    padding: 2em;
+}
+
+
+/*Estilos del boton de menu*/
+#menu{
+    width: 20%;
+    height: 40px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: #F9DEC9;
+    border-radius: 10px;
+}
+
+#menu:hover{
+    /*Boton de menu transicion*/
+    transform: scale(1.2);
+    background-color: #78C0A8;
+}
+
+.featured-products{
+    padding: 50px;
+    text-align: center;
+}

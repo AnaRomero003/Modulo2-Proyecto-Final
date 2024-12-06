@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #5E412F;
+}
+
+.logo{
+    display: inline-flex;
+}
+
+.logo img{
+    width: 3em;
+}
+
+.navbar h1{
+    color: #F9DEC9;
+    font-family: cursive;
+    padding-left: 10px;
+    align-content: center;
+}
+
+.nav-links{
+    /*Quitar viñetas*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.nav-links a{
+    /*Cambiar estilo de links de navegacion*/
+    color: rgb(219, 232, 232);
+    font-size: larger;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links a:hover{
+    color: rgb(221, 221, 76);
+    text-shadow: 0px 0px 5px rgb(244, 206, 206);
+}
+
+/*Estilos de pie de pagina*/
+footer{
+    background-color: #5E412F;
+    text-align: center;
+    padding: 15px 0px 15px;
+    color: #fcebb6;
+}
+
+.newsletter button{
+    background-color: #c88fc1;
+    height: 35px;
+    width: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.newsletter button:hover{
+    scale: 1.05;
+    background-color: #a14a97;
+}
+
+.newsletter input{
+    font-size: 1.2em;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+
+.social-media a{
+    color: beige;
+    font-size: x-large;
+    width: 2em;
+}
+
+.social-media a:hover{
+    scale: 1.05;
+    color: rgb(205, 189, 176);
+}
