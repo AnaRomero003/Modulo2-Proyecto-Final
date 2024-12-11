@@ -15,32 +15,17 @@
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 0 30%;
 }
 
-
-
 .bebidas-calientes{
-    padding: 50px;
     text-align: center;
     background-color: rgb(221, 180, 180);
     width: 100%;
     height: fit-content;
 }
 
-.bebidas{
-    width: 300px;
-    margin-bottom: 30px;
-}
-
-.bebidas img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
 .bebidas-frias{
-    padding: 50px;
     text-align: center;
     background-color: rgb(59, 197, 103);
     width: 100%;
@@ -48,7 +33,6 @@
 }
 
 .postres{
-    padding: 50px;
     text-align: center;
     background-color: rgb(225, 128, 90);
     width: 100%;
@@ -58,7 +42,6 @@
 .postres-seccion, .equipo{
     padding: 50px;
     text-align: center;
-
 }
 
 .grid-container{
@@ -111,6 +94,8 @@
 }
 
 .sandwich{
+    
+    align-content: center;
     border: 1px solid blueviolet;
     padding: 20px;
 }
