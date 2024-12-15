@@ -130,11 +130,12 @@ footer{
         flex-direction: column;
         position: absolute;
         top: 80px;
-        right: -100%;
+        right: 0;
+        visibility: hidden;
         width: 35%;
-        height: 20vh;
+        height: 180px;
         background-color: #5e412fd9;
-        transition: right 0.3s ease-in-out;
+        transition: 0.3s ease;
     }
 
     .nav-links li{
@@ -143,6 +144,7 @@ footer{
     
     .nav-links.active {
         right: 0;
+        visibility: visible;
     }
 
     .nav-links a{
