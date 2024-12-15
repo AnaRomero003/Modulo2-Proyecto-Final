@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: rgba(250, 235, 215, 0.911);
 }
 
 .product{
@@ -15,7 +16,7 @@
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
-    border-radius: 0 30%;
+    border-radius: 50%;
 }
 
 .bebidas-calientes{
@@ -42,6 +43,7 @@
 .postres-seccion, .equipo{
     padding: 50px;
     text-align: center;
+    background-color: rgb(250, 241, 236);
 }
 
 .grid-container{
@@ -54,16 +56,22 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
+    border-radius: 0 30%;
 }
 
 .equipo{
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.911);
 }
 
 .equipo-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.equipo h2{
+    margin-bottom: 20px;
+    color: rgb(165, 91, 42);
 }
 
 .miembro{

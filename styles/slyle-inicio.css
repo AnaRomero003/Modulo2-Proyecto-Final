@@ -28,6 +28,10 @@
     padding: 2em;
 }
 
+.featured-products{
+    background-color: rgba(250, 235, 215, 0.911);
+}
+
 
 /*Estilos del boton de menu*/
 #menu{
