@@ -10,6 +10,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #F9DEC9;
 }
 
 .footer-container{
@@ -22,7 +23,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #5E412F;
 }
 
@@ -55,13 +56,12 @@ a{
 
 .nav-links a{
     /*Cambiar estilo de links de navegacion*/
-    color: rgb(219, 232, 232);
     font-size: larger;
     transition: all 0.2s ease-in-out;
 }
 
 .nav-links a:hover{
-    color: rgb(221, 221, 76);
+    color: rgb(230, 230, 90);
     text-shadow: 0px 0px 5px rgb(244, 206, 206);
 }
 
@@ -69,13 +69,12 @@ a{
 footer{
     background-color: #5E412F;
     text-align: center;
-    padding: 15px 0px 15px;
+    padding: 10px 0px 10px;
     color: #fcebb6;
 }
 
 .newsletter h3{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 0.5em 0 0.5em 0;
 }
 
 .newsletter button[type="submit"]{
@@ -97,7 +96,7 @@ footer{
     text-align: center;
     width: 300px;
     height: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 0.5em;
     border-radius: 5px;
 }
 
@@ -139,8 +138,17 @@ footer{
     .newsletter input[type="email"]{
         font-size: 1em;
         text-align: center;
-        width: 200px;
-        height: 20px;
+        width: 220px;
+        height: 30px;
         margin-bottom: 10px;
     }
+
+    .newsletter h3{
+        margin: 0.3em 0 0.3em 0;
+        font-size: medium;
+    }
+
+    .social-media a{
+        font-size: large;
+        width: 1.5em;
 }
