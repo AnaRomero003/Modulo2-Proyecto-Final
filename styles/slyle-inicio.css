@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.hero h2{
+.hero h1{
     font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 1px 1px 10px #08415C;
@@ -32,6 +32,11 @@
     background-color: rgba(250, 235, 215, 0.911);
 }
 
+h2{
+    margin-bottom: 20px;
+    color: rgb(165, 91, 42);
+}
+
 
 /*Estilos del boton de menu*/
 #menu{
@@ -41,6 +46,10 @@
     transition: all 0.3s ease-in-out;
     background-color: #F9DEC9;
     border-radius: 10px;
+}
+
+#menu a{
+    color: black;
 }
 
 #menu:hover{

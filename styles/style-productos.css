@@ -3,24 +3,31 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: rgba(250, 235, 215, 0.911);
 }
 
 .product{
     width: 300px;
     margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
 .product img{
-    width: 100%;
+    width: 90%;
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 50%;
 }
 
+.product:hover{
+    /*Boton de menu transicion*/
+    transform: scale(1.1);
+    
+}
+
 .bebidas-calientes{
     text-align: center;
+    padding: 20px;
     background-color: rgb(221, 180, 180);
     width: 100%;
     height: fit-content;
@@ -28,16 +35,18 @@
 
 .bebidas-frias{
     text-align: center;
-    background-color: rgb(59, 197, 103);
+    padding: 20px;
+    background-color: rgb(134, 238, 186);
     width: 100%;
     height: fit-content;
 }
 
 .postres{
     text-align: center;
-    background-color: rgb(225, 128, 90);
+    background-color: rgb(252, 178, 148);
     width: 100%;
     height: fit-content;
+    padding: 20px;
 }
 
 .postres-seccion, .equipo{
@@ -49,7 +58,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    gap: 20px;/*Espaciado entre objetos*/
+    gap: 30px;/*Espaciado entre objetos*/
 }
 
 .postres-seccion img{
@@ -57,6 +66,14 @@
     height: 300px;
     object-fit: cover;
     border-radius: 0 30%;
+}
+
+.postre{
+    transition: all 0.3s ease-in-out;
+}
+
+.postre:hover{
+    transform: scale(1.1);
 }
 
 .equipo{
@@ -69,9 +86,9 @@
     flex-wrap: wrap;
 }
 
-.equipo h2{
+h2{
     margin-bottom: 20px;
-    color: rgb(165, 91, 42);
+    color: rgb(117, 66, 32);
 }
 
 .miembro{
@@ -103,9 +120,15 @@
 
 .sandwich{
     align-content: center;
-    border: 1px solid blueviolet;
+    border: 2px solid rgb(99, 9, 182);
     padding: 20px;
     background-color: rgba(247, 226, 218, 0.618);
+    transition: all 0.3s ease-in-out;
+}
+
+.sandwich:hover{
+    transform: scale(1.05);
+    background-color: antiquewhite;
 }
 
 .sandwich img{
